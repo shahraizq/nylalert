@@ -11,7 +11,7 @@ WORKDIR /build
 COPY package*.json ./
 
 # Install dependencies with exact versions
-RUN npm ci --only=production && \
+RUN npm install --production --no-audit --no-fund && \
     npm cache clean --force
 
 # Remove unnecessary files from node_modules
