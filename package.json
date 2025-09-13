@@ -1,0 +1,24 @@
+{
+  "name": "nyla-coin-alerts",
+  "version": "1.0.0",
+  "description": "Buy and sell alerts for Nyla coin on Solana",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["solana", "cryptocurrency", "alerts", "nyla"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.4",
+    "@solana/spl-token": "^0.1.8",
+    "dotenv": "^16.4.5",
+    "node-notifier": "^10.0.1",
+    "winston": "^3.15.0",
+    "chart.js": "^3.9.1",
+    "chartjs-node-canvas": "^4.1.6",
+    "form-data": "^4.0.0"
+  }
+}
